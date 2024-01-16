@@ -2,7 +2,7 @@
 using namespace sf;
 
 FirstScreen::FirstScreen(sf::RenderWindow& window, int& activeScreen)
-    : window(window), activeScreen(activeScreen) // Yolo
+    : window(window), activeScreen(activeScreen) // Display first window
 {
     // Load font for button text
     if (!font.loadFromFile("myfnt.ttf")) {
